@@ -1,0 +1,20 @@
+{
+  "name": "cliapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^3.0.1",
+    "figlet": "^1.2.4",
+    "inquirer": "^7.0.0",
+    "joi": "^14.3.1",
+    "mongoose": "^5.6.12",
+    "validator": "^11.1.0"
+  }
+}
