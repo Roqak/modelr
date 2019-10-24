@@ -13,7 +13,10 @@ console.log(
   )
 );
 if (!files.directoryExists('model')) {
-    console.log(chalk.red('Please create the model file'));
+    console.log(chalk.red('Model File does not Exist'));
+    console.log(chalk.yellow('Creating the model file for you'));
+    fs.mkdirSync('./model');
+    console.log(chalk.green('Model File Created'));
     process.exit();
   }
 commander.
